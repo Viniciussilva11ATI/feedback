@@ -4,3 +4,16 @@
     box-sizing: border-box;
     font-family: "Overpass", sans-serif;
 }
+
+:root {
+    --dark-clue:#262E38;
+    --light-grey:#969FAD;
+    --medium-grey:#7C8798;
+    --orange:#FC7614;
+    --white:#FFF;
+    --very-drak-clube:#131518;
+    --black-gradient: radial-gradient(98.96% 98.96% at 50% 8%, #232A34 8%, #181E27 100%);
+
+
+
+}
