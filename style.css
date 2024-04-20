@@ -13,7 +13,33 @@
     --white:#FFF;
     --very-drak-clube:#131518;
     --black-gradient: radial-gradient(98.96% 98.96% at 50% 8%, #232A34 8%, #181E27 100%);
+}
 
+dody {
+    background-color: var(--very-dark-blue);
+    height: 100svh;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.card {
+    background: var(--black-gradient);
+    max-width: 412px;
+}
+
+.card h1 {
+    color: var(--white);
+}
+
+.card p {
+    color: var(--light-grey);
+}
+
+.estrela {
+    background-color: var(--dark-blue);
+    width: 48px;
+    height: 48px;
+    
 }
