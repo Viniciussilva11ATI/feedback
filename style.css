@@ -7,16 +7,16 @@
 }
 
 :root {
-    --dark-clue:#262E38;
+    --dark-blue:#262E38;
     --light-grey:#969FAD;
     --medium-grey:#7C8798;
     --orange:#FC7614;
     --white:#FFF;
-    --very-drak-clube:#131518;
+    --very-dark-blue:#131518;
     --black-gradient: radial-gradient(98.96% 98.96% at 50% 8%, #232A34 8%, #181E27 100%);
 }
 
-dody {
+body {
     background-color: var(--very-dark-blue);
     height: 100svh;
 
@@ -28,6 +28,8 @@ dody {
 .card {
     background: var(--black-gradient);
     max-width: 412px;
+    padding: 32px;
+    border-radius: 30px;
 }
 
 .estrela {
@@ -79,7 +81,7 @@ dody {
 }
 
 
-.botoes botton:hover {
+.botoes button:hover {
     color: var(--white);
     background-color: var(--orange);
     cursor: pointer;
@@ -90,7 +92,8 @@ dody {
     background-color: var(--light-grey);
 }
 
-.card > button {
+.card > a {
+    display: block;
     width: 100%;
     padding: 13px;
     background-color: var(--orange);
@@ -102,11 +105,13 @@ dody {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: var(--white);
+    text-align: center;
+    text-decoration: none;
 
     transition: all ease-in-out 0.3s;
 }
 
-.card > button:hover {
+.card > a:hover {
     color: var(--orange);
     background-color: var(--white);
     cursor: pointer;
